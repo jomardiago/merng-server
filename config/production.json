@@ -1,0 +1,4 @@
+{
+    "mongoDbUrl": "mongodb+srv://admin:k1VE2DgvXbN0PdkI@merng-social-app.2r2aj.mongodb.net/merng?retryWrites=true&w=majority",
+    "secretKey": "mys3cr3tk3y"
+}
