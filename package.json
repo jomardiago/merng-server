@@ -1,0 +1,26 @@
+{
+  "name": "merng-social-app",
+  "version": "1.0.0",
+  "description": "Social App Using MongoDB, Express, React, NodeJS and GraphQL",
+  "main": "server.js",
+  "author": "Jose Mari A. Diago",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=local-dev nodemon server.js",
+    "serve": "cross-env NODE_ENV=local-dev node server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.24.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cross-env": "^7.0.3",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
